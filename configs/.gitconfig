@@ -1,0 +1,14 @@
+[user]
+	email = denys.mkk@gmail.com
+	name = Denys Vasylyshyn
+	signingkey = ~/.ssh/github-personal.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram

@@ -10,6 +10,12 @@ Scripts and dotfiles to quickly set up dev environment.
 ## Private Dotfile Examples
 
 ```
+# ~/.gitconfig-work
+[user]
+    email = <email>
+    signingkey = ~/.ssh/<name>.pub
+```
+```
 # ~/.ssh/config.private
 Host a1-o
     HostName <ip>

@@ -2,6 +2,12 @@
 	email = denys.mkk@gmail.com
 	name = Denys Vasylyshyn
 	signingkey = ~/.ssh/github-personal.pub
+[includeIf "gitdir/i:~/work/"]
+	path = ~/.gitconfig-work
+[includeIf "gitdir/i:/mnt/d/projects/work/"]
+	path = ~/.gitconfig-work
+[includeIf "gitdir/i:D:/projects/work/"]
+	path = ~/.gitconfig-work
 [gpg]
 	format = ssh
 [commit]

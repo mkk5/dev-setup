@@ -1,0 +1,4 @@
+[wsl2]
+processors=8
+defaultVhdSize=53687091200
+vmIdleTimeout=600000

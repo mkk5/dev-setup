@@ -1,0 +1,60 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "initialCols": 130,
+    "initialRows": 35,
+    "keybindings": [],
+    "language": "en-US",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Ottosson",
+            "font": 
+            {
+                "face": "Cascadia Code"
+            }
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "colorScheme": "Ubuntu-ColorScheme",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": [],
+    "showTabsFullscreen": false,
+    "showTerminalTitleInTitlebar": false,
+    "tabSwitcherMode": "inOrder",
+    "tabWidthMode": "equal",
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": false,
+    "windowingBehavior": "useExisting"
+}

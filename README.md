@@ -28,12 +28,12 @@ Scripts and dotfiles to quickly set up dev environment.
    |---|---|
    | SSH keys | `~/.ssh/` |
    | `config.private` | `~/.ssh/` |
-   | `.gitconfig-work` | `~/` |
+   | `.gitconfig-work`, `.gitconfig-gsi` | `~/` |
 
 ## Private Dotfile Examples
 
 ```
-# ~/.gitconfig-work
+# ~/.gitconfig-work (same shape for ~/.gitconfig-gsi)
 [user]
     email = <email>
     signingkey = ~/.ssh/<name>.pub

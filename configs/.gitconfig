@@ -6,8 +6,10 @@
 	path = ~/.gitconfig-work
 [includeIf "gitdir/i:/mnt/d/projects/work/"]
 	path = ~/.gitconfig-work
-[includeIf "gitdir/i:D:/projects/work/"]
-	path = ~/.gitconfig-work
+[includeIf "gitdir/i:~/gsi/"]
+	path = ~/.gitconfig-gsi
+[includeIf "gitdir/i:/mnt/d/projects/gsi/"]
+	path = ~/.gitconfig-gsi
 [gpg]
 	format = ssh
 [commit]
